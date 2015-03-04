@@ -381,7 +381,72 @@ body { overflow: auto; }
 	width: 187px;
 	height: 187px;
 }
+.detail .retail_suggest .cat_list .product .title,
+.detail .retail_suggest .cat_list .product .price {
+	width: 100%;
+}
+.detail .tab-container [data-for="comments"] > ul > li {
+	border-bottom: solid 1px #E3E3E3;
+	padding: 20px 0;
+	color: #333333;
+}
+.detail .tab-container [data-for="comments"] > ul > li .user_comment {
+	padding: 0 10px;
+}
+.detail .tab-container [data-for="comments"] > ul > li .user_image {
+	height: 99px;
+	border: solid 1px #cccccc;
+}
+.detail .tab-container [data-for="comments"] > ul > li .user_name {
+	font-weight: 600;
+}
+.detail .tab-container [data-for="comments"] > ul > li .comments_info {
+	margin-top: 5px;
+	font-size: 12px;
+	color: #D5CCCF;
+}
+.detail .tab-container [data-for="comments"] > ul > li .product_image > li {
+	display: inline-block;
+	vertical-align: middle;
+	border: solid 1px #cccccc;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
 /* ---------- END Detail ---------- */
+
+/* ---------- Tabs ---------- */
+.tab-container {
+	margin-top: 20px;
+}
+.tab-container .tabs {
+	margin-left: 5px;
+}
+.tab-container .tabs li {
+	display: inline-block;
+	vertical-align: middle;
+	border: solid 1px #CECBCE;
+	background: #F1F1F1;
+	height: 30px;
+	line-height: 30px;
+	margin-right: -1px;
+}
+.tab-container .tabs li.active {
+	background: #FFFFFF;
+	border-top: solid 2px #FA7053;
+	border-bottom: solid 2px #FFFFFF;
+}
+.tab-container .tabs li a {
+	display: block;
+	padding: 0 20px;
+	color: #333333;
+}
+.tab-container .tab-content {
+	border: solid 1px #CECBCE;
+	margin-top: -2px;
+	padding: 15px;
+}
+/* ---------- Tabs ---------- */
 
 /* ---------- Foot ---------- */
 .foot { height: 200px; }
