@@ -95,6 +95,12 @@
 	color: #333333;
 	background: #FFFFFF;
 }
+.form_body .field table { border: solid 1px #cccccc; }
+.form_body .field table thead th {
+	background: #F1F1F1;
+	border-bottom: solid 1px #cccccc;
+}
+.form_body .field table tbody td { border-bottom: solid 1px #cccccc; }
 /* ---------- Form ---------- */
 
 /* ---------- Detail ---------- */
@@ -125,12 +131,44 @@
 	background: #FA7053;
 	color: #FFFFFF;
 }
-.detail .retail_info table .control .btn {
+.detail .retail_info table .control .btn,
+.form_body .field table tbody td.control .btn,
+.detail .order_info > table.order_info_td td.control .btn,
+.detail .car_info > table td.control .btn,
+.detail .car_info > table tfoot th.control .btn {
 	border: solid 1px #CECBCE;
 	background: #F1F1F1;
 	color: #333333;
 }
 .detail .retail_suggest .cat_list .product { border: solid 1px #dddddd; }
+.detail .tab-container [data-for="comments"] > ul > li {
+	border-bottom: solid 1px #E3E3E3;
+	color: #333333;
+}
+.detail .tab-container [data-for="comments"] > ul > li .user_image { border: solid 1px #cccccc; }
+.detail .tab-container [data-for="comments"] > ul > li .comments_info { color: #D5CCCF; }
+.detail .tab-container [data-for="comments"] > ul > li .product_image > li { border: solid 1px #cccccc; }
+.detail .user_info > div:not([class]) {
+	border: solid 1px #cccccc;
+	border-bottom: none;
+}
+.detail .user_info .user_image { background: #cccccc; }
+.detail .user_info .nickname { color: #666666; }
+.detail .order_info > table,
+.detail .car_info > table {
+	border: solid 1px #cccccc;
+}
+.detail .order_info > table.order_info_th th,
+.detail .order_info > table.order_info_td th,
+.detail .car_info > table th {
+	background: #F1F1F1;
+}
+.detail .order_info > table.order_info_td td .product_image {
+	border: solid 1px #cccccc;
+	background: #f1f1f1;
+}
+.detail .order_info > table.order_info_td td .product_name { color: #FA7053; }
+.detail .car_info > table td { border-bottom: solid 1px #cccccc; }
 /* ---------- END Detail ---------- */
 
 /* ---------- Foot ---------- */
