@@ -135,7 +135,8 @@
 .form_body .field table tbody td.control .btn,
 .detail .order_info > table.order_info_td td.control .btn,
 .detail .car_info > table td.control .btn,
-.detail .car_info > table tfoot th.control .btn {
+.detail .car_info > table tfoot th.control .btn,
+.gouwuche .gouwuche_controls .btn {
 	border: solid 1px #CECBCE;
 	background: #F1F1F1;
 	color: #333333;
@@ -155,20 +156,31 @@
 .detail .user_info .user_image { background: #cccccc; }
 .detail .user_info .nickname { color: #666666; }
 .detail .order_info > table,
-.detail .car_info > table {
+.detail .car_info > table,
+.gouwuche > table {
 	border: solid 1px #cccccc;
 }
 .detail .order_info > table.order_info_th th,
 .detail .order_info > table.order_info_td th,
+.gouwuche > table th,
 .detail .car_info > table th {
 	background: #F1F1F1;
 }
-.detail .order_info > table.order_info_td td .product_image {
+.detail .order_info > table.order_info_td td .product_image,
+.gouwuche > table td .product_image {
 	border: solid 1px #cccccc;
 	background: #f1f1f1;
 }
-.detail .order_info > table.order_info_td td .product_name { color: #FA7053; }
+.detail .order_info > table.order_info_td td .product_name,
+.gouwuche > table td .product_name {
+	color: #FA7053;
+}
 .detail .car_info > table td { border-bottom: solid 1px #cccccc; }
+.gouwuche .gouwuche_controls .btn {
+	color: #ffffff;
+	background: #fe6535;
+	border: none;
+}
 /* ---------- END Detail ---------- */
 
 /* ---------- Foot ---------- */

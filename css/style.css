@@ -269,7 +269,8 @@ body { overflow: auto; }
 	margin: 5px 0;
 	padding: 10px;
 }
-.detail > div {
+.detail > div,
+.gouwuche {
 	padding: 10px;
 	font-size: 14px;
 }
@@ -378,7 +379,8 @@ body { overflow: auto; }
 .form_body .field table tbody td.control .btn,
 .detail .order_info > table.order_info_td td.control .btn,
 .detail .car_info > table td.control .btn,
-.detail .car_info > table tfoot th.control .btn {
+.detail .car_info > table tfoot th.control .btn,
+.gouwuche .gouwuche_controls .btn {
 	display: inline-block;
 	vertical-align: middle;
 	font-weight: 400;
@@ -430,37 +432,67 @@ body { overflow: auto; }
 	font-weight: 600;
 }
 .detail .order_info > table,
-.detail .car_info > table {
+.detail .car_info > table,
+.gouwuche > table {
 	table-layout: fixed;
 	width: 100%;
 	margin-bottom: 10px;
 }
 .detail .order_info > table.order_info_th th,
 .detail .order_info > table.order_info_td th,
-.detail .car_info > table th {
+.detail .car_info > table th,
+.gouwuche > table th {
 	padding: 5px;
 }
-.detail .order_info > table.order_info_td th {
+.detail .order_info > table.order_info_td th,
+.gouwuche > table th {
 	text-align: left;
 }
 .detail .order_info > table.order_info_td td,
-.detail .car_info > table td {
+.detail .car_info > table td,
+.gouwuche > table td {
 	padding: 5px;
 }
-.detail .order_info > table.order_info_td td .product_image {
+.detail .order_info > table.order_info_td td .product_image,
+.gouwuche > table td .product_image {
 	display: block;
 	width: 80px;
 	height: 80px;
 	margin-right: 10px;
 	text-align: center;
 }
-.detail .order_info > table.order_info_td td .product_name { font-weight: 600; }
+.detail .order_info > table.order_info_td td .product_name,
+.gouwuche > table td .product_name {
+	font-weight: 600;
+}
 .detail .order_info > table.order_info_td td.control .btn,
 .detail .car_info > table td.control .btn,
-.detail .car_info > table tfoot th.control .btn {
+.detail .car_info > table tfoot th.control .btn,
+.gouwuche .gouwuche_controls .btn {
 	margin: 0;
 }
 .detail .car_info > table td { vertical-align: top; }
+.gouwuche .gouwuche_controls > * {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 500;
+}
+.gouwuche table {
+	margin: 10px 0;
+}
+.gouwuche table a {
+	color: #333333;
+}
+.gouwuche table tbody td {
+	padding: 10px 5px;
+	border-bottom: solid 1px #cccccc;
+}
+.gouwuche .gouwuche_controls .total_price,
+.gouwuche table .product_price,
+.gouwuche table .peisong_price {
+	color: #FA7053;
+	font-weight: 600;
+}
 /* ---------- END Detail ---------- */
 
 /* ---------- Tabs ---------- */
