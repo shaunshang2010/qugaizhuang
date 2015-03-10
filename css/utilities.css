@@ -63,6 +63,19 @@ input[type="button"].btn {
 .btn.main_red:hover {
 	background: #ed5647;
 }
+.btn.main_yellow {
+	color: #ffffff;
+	background: #F39C12;
+	border: none;
+}
+.btn.main_yellow:hover {
+	background: #F4A62A;
+}
+.btn.normal {
+	border: solid 1px #CECBCE;
+	background: #F1F1F1;
+	color: #333333;
+}
 textarea.noresize {
 	resize: none;
 }

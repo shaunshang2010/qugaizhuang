@@ -52,6 +52,7 @@
 	border: solid 2px #dddddd;
 }
 .category .cat_head h4,
+.category .cat_head h4 a,
 .category .cat_body .product_container .product .title,
 .category .cat_body .shop_container .shop .title,
 .category .cat_body .shop_container .shop p {
@@ -62,7 +63,7 @@
 /* ---------- END Category ---------- */
 
 /* ---------- Category List ---------- */
-.cat_list .product { border: solid 2px #dddddd; }
+.cat_list .product { border: solid 1px #dddddd; }
 .cat_list .product .title { color: #666666; }
 .cat_list .product .title:hover { color: #ed5647; }
 .cat_list .product .price { color: #ed5647; }
@@ -87,6 +88,8 @@
 .form_body .field .control p a { color: #ed5647; }
 .form_body .field.seperator:after { background: #CCCCCC; }
 .form_body .field.seperator > div { background: #FFFFFF; }
+.form_body .field ul.peisong_addr li.active { background: #eeeeee; }
+.form_body .field .total_price b { color: #FE6535; }
 .form_body.wizard ul li {
 	color: #aaaaaa;
 	background: #EEEEEE;
@@ -153,8 +156,14 @@
 	border: solid 1px #cccccc;
 	border-bottom: none;
 }
-.detail .user_info .user_image { background: #cccccc; }
-.detail .user_info .nickname { color: #666666; }
+.detail .retail {
+	border: solid 1px #cccccc;
+}
+.detail .user_info .user_image,
+.detail .retail .user_image { background: #cccccc; }
+.detail .user_info .nickname,
+.detail .retail .nickname { color: #666666; }
+.detail .retail .retail_head { border-bottom: solid 1px #cccccc; }
 .detail .order_info > table,
 .detail .car_info > table,
 .gouwuche > table {

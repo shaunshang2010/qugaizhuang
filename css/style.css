@@ -217,6 +217,7 @@ body { overflow: auto; }
 .form_body .field { margin: 0 auto; padding: 8px 0; }
 .form_body .field > label {
 	min-width: 100px;
+	line-height: 24px;
 	text-align: right;
 }
 .form_body .field .control > * {
@@ -227,6 +228,13 @@ body { overflow: auto; }
 .form_body .field .control .link {
 	font-size: 13px;
 }
+.form_body .field .control textarea {
+	height: 80px;
+	resize: none;
+	padding: 5px;
+}
+.form_body .field ul.peisong_addr li { padding: 5px; }
+.form_body .field .total_price { font-weight: 700; }
 .form_body .field.seperator { position: relative; }
 .form_body .field.seperator:after {
 	content: "";
@@ -416,7 +424,14 @@ body { overflow: auto; }
 	padding: 10px;
 	margin-bottom: -32px;
 }
-.detail .user_info .user_image {
+.detail .retail {
+	padding: 0;
+}
+.detail .retail .retail_head {
+	padding: 10px;
+}
+.detail .user_info .user_image,
+.detail .retail .user_image {
 	width: 120px;
 	height: 120px;
 	line-height: 120px;
@@ -426,11 +441,17 @@ body { overflow: auto; }
 	border-radius: 60px;
 	text-align: center;
 }
-.detail .user_info .nickname {
+.detail .user_info .nickname,
+.detail .retail .nickname {
 	margin-top: 10px;
 	font-size: 20px;
 	font-weight: 600;
 }
+.detail .retail .nickname {
+	height: 70px;
+	line-height: 60px;
+}
+.detail .retail .retail_head { padding-bottom: 5px; }
 .detail .order_info > table,
 .detail .car_info > table,
 .gouwuche > table {
