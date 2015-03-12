@@ -65,133 +65,84 @@
 					</div>
 					<div class="tabs">
 						<ul>
-							<li class="active">
-								<a href="javascript:;" data-target="">个人资料</a>
-							</li><li>
+							<li>
+								<a href="user_info.html" data-target="">个人资料</a>
+							</li><li class="active">
 								<a href="order_info.html" data-target="">我的订单</a>
 							</li><li>
 								<a href="car_info.html" data-target="">车辆信息</a>
 							</li>
 						</ul>
 					</div>
-					<div class="sub_tabs">
-						<ul>
-							<li class="active">
-								<a href="javascript:;" data-target="">基本信息</a>
-							</li><li>
-								<a href="change_password.html" data-target="">修改密码</a>
-							</li><li>
-								<a href="shouhuo.html" data-target="">收货地址</a>
-							</li>
-						</ul>
-					</div>
 					<div class="tab-content">
-						<div class="form_body text-center">
-							<div class="field span6">
-								<label class="text-right span4 left">昵称：</label>
-								<div class="control span8 left text-left">
-									<input type="text" name="nickname" class="textfield span12" />
-								</div>
-								<div class="clear"></div>
-							</div>
-							<div class="field span6">
-								<label class="text-right span4 left">当前头像：</label>
-								<div class="control span8 left text-left">
-									current image
-								</div>
-								<div class="clear"></div>
-							</div>
-							<div class="field span6">
-								<label class="text-right span4 left">所在地：</label>
-								<div class="control span8 left text-left">
-									<select name="user_region" class="textfield span3">
-										<option value="">中国大陆</option>
-										<option value="">香港</option>
-										<option value="">澳门</option>
-										<option value="">台湾</option>
-										<option value="">韩国</option>
-										<option value="">日本</option>
-									</select>
-									<input type="text" name="user_region" class="textfield span8" />
-								</div>
-								<div class="clear"></div>
-							</div>
-							<div class="field span6">
-								<label class="text-right span4 left">性别：</label>
-								<div class="control span8 left text-left">
-									<label><input type="radio" name="gender" checked />男</label>
-									<label><input type="radio" name="gender" />女</label>
-								</div>
-								<div class="clear"></div>
-							</div>
-							<div class="field span6">
-								<label class="text-right span4 left">生日：</label>
-								<div class="control span8 left text-left">
-									<select name="birth_year" class="textfield span3">
-										<option value="">1980</option>
-										<option value="">1981</option>
-										<option value="">1982</option>
-										<option value="">1983</option>
-										<option value="">1984</option>
-										<option value="">1985</option>
-									</select>
-									<select name="birth_month" class="textfield span3">
-										<option value="">1</option>
-										<option value="">2</option>
-										<option value="">3</option>
-										<option value="">4</option>
-										<option value="">5</option>
-										<option value="">6</option>
-										<option value="">7</option>
-										<option value="">8</option>
-										<option value="">9</option>
-										<option value="">10</option>
-										<option value="">11</option>
-										<option value="">12</option>
-									</select>
-									<select name="birth_day" class="textfield span3">
-										<option value="">1</option>
-										<option value="">2</option>
-										<option value="">3</option>
-										<option value="">4</option>
-										<option value="">5</option>
-										<option value="">6</option>
-										<option value="">7</option>
-										<option value="">8</option>
-										<option value="">9</option>
-										<option value="">10</option>
-										<option value="">11</option>
-										<option value="">12</option>
-										<option value="">13</option>
-										<option value="">14</option>
-										<option value="">15</option>
-										<option value="">16</option>
-										<option value="">17</option>
-										<option value="">18</option>
-										<option value="">19</option>
-										<option value="">20</option>
-										<option value="">21</option>
-										<option value="">22</option>
-										<option value="">23</option>
-										<option value="">24</option>
-										<option value="">25</option>
-										<option value="">26</option>
-										<option value="">27</option>
-										<option value="">28</option>
-										<option value="">29</option>
-										<option value="">30</option>
-										<option value="">31</option>
-									</select>
-								</div>
-								<div class="clear"></div>
-							</div>
-							<div class="field span6">
-								<label class="span4 left">&nbsp;</label>
-								<div class="control span8 left text-left">
-									<input type="submit" class="btn main_red span9" value="保存" />
-								</div>
-								<div class="clear"></div>
-							</div>
+						<div class="current_position">
+							<ul>
+								<li><a href="../index.html">首页</a> -&gt;</li>
+								<li><a href="order_info.html">我的订单</a> -&gt;</li>
+								<li>物流详情</li>
+							</ul>
+						</div>
+						<div class="order_info">
+							<table class="wuliu">
+								<thead>
+									<tr>
+										<th>
+											<span class="span3 left text-left">订单编号: 201502170098</span>
+											<span class="span9 left text-left">商家名称: 联系方式</span>
+											<div class="clear"></div>
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="wuliugongsi span3 left">
+												<p>物流公司: 申通快递</p>
+												<p>运单号码: 968665375337</p>
+											</div>
+											<div class="wuliudongtai span9 left">
+												<p>物流动态</p>
+												<div>
+													<ul>
+														<li>
+															<span class="date">2015-01-10 10:37:19</span>
+															<span class="wuliu_info">卖家已发货</span>
+														</li>
+														<li>
+															<span class="date">2015-01-10 10:37:19</span>
+															<span class="wuliu_info">【广东深圳罗湖民治分部】的收件员【姜仪辉】已收件</span>
+														</li>
+														<li>
+															<span class="date">2015-01-10 10:37:19</span>
+															<span class="wuliu_info">【广东深圳罗湖民治分部】正在进行【装袋】扫描</span>
+														</li>
+														<li>
+															<span class="date">2015-01-10 10:37:19</span>
+															<span class="wuliu_info">由【广东深圳罗湖民治分部】发往【北京中转部】</span>
+														</li>
+														<li>
+															<span class="date">2015-01-10 10:37:19</span>
+															<span class="wuliu_info">由【广东深圳罗湖民治分部】发往【北京中转部】</span>
+														</li>
+														<li class="active">
+															<span class="date">2015-01-10 10:37:19</span>
+															<span class="wuliu_info">
+																<p>由【北京中转部】发往【北京苏州街公司】</p>
+																<p style="color: #aaaaaa;">
+																	订单来源：<a href="javascript:;">申通快递</a>
+																	&nbsp;&nbsp;&nbsp;&nbsp;
+																	订单号：968665375337
+																</p>
+															</span>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>

@@ -164,7 +164,7 @@
 .detail .user_info .nickname,
 .detail .retail .nickname { color: #666666; }
 .detail .retail .retail_head { border-bottom: solid 1px #cccccc; }
-.detail .order_info > table,
+.detail .order_info > table:not(.wuliu),
 .detail .car_info > table,
 .gouwuche > table {
 	border: solid 1px #cccccc;
@@ -174,6 +174,9 @@
 .gouwuche > table th,
 .detail .car_info > table th {
 	background: #F1F1F1;
+}
+.detail .order_info > table.wuliu tbody td > div:not(.clear) {
+	border: solid 1px #cccccc;
 }
 .detail .order_info > table.order_info_td td .product_image,
 .gouwuche > table td .product_image {

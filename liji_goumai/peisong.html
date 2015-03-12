@@ -15,7 +15,7 @@
 			<a href="../index.html" class="logo left"></a>
 			<div class="nav left">
 				<ul>
-					<li><a href="../cat_waiguan/list.html">外观</a></li>
+					<li><a href="javascript:;">外观</a></li>
 					<li><a href="../cat_neishi/list.html">内饰</a></li>
 					<li><a href="../cat_jinpaiqi/list.html">进排气</a></li>
 					<li><a href="../cat_yinqing/list.html">动力引擎</a></li>
@@ -27,11 +27,11 @@
 				</ul>
 			</div>
 			<div class="control right">
-				<ul class="hide">
-					<li><a href="login/login.html">你好，登录</a></li>
-					<li><a href="login/signup.html">免费注册</a></li>
-				</ul>
 				<ul>
+					<li><a href="javascript:;">你好，登录</a></li>
+					<li><a href="javascript:;">免费注册</a></li>
+				</ul>
+				<ul class="hide">
 					<li><a href="javascript:;">你好，Username</a></li>
 					<li><a href="javascript:;">购物车</a></li>
 					<li><a href="javascript:;">收藏</a></li>
@@ -45,7 +45,7 @@
 			<div class="search">
 				<div class="search_box">
 					<input type="text" placeholder="按关键字、车型、配件搜索" />
-					<a href="search/list.html" class="search_btn text-center">搜索</a>
+					<a href="javascript:;" class="search_btn text-center">搜索</a>
 				</div>
 				<div class="quick_search">
 					<ul>
@@ -56,70 +56,91 @@
 					</ul>
 				</div>
 			</div>
-			<div class="detail span12">
-				
-				<div class="tab-container user_info">
-					<div>
-						<div class="span2 left user_image">User Image</div>
-						<div class="span10 left nickname">用户昵称</div>
-						<div class="clear"></div>
+			<div class="gouwuche detail span12">
+				<table>
+					<colgroup>
+						<col width="3%" />
+						<col width="40%" />
+						<col width="30%" />
+						<col width="10%" />
+						<col width="17%" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th></th>
+							<th>商品信息</th>
+							<th>配送信息</th>
+							<th class="text-center">数量</th>
+							<th class="text-right">总价</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="text-center">
+								<input type="checkbox" />
+							</td>
+							<td>
+								<div class="product_image left">image</div>
+								<div class="span9 left">
+									<p class="product_name">京亚16寸紫荆花款轮毂（原厂压铸工艺）</p>
+									<p class="product_type">规格：科鲁兹</p>
+									<p class="retail_name">我是商家名称</p>
+									<p>价格：<span class="product_price">￥1500.00</span></p>
+								</div>
+								<div class="clear"></div>
+							</td>
+							<td>
+								<p class="peisong_type">到店安装</p>
+								<p class="retail_name">我是商家名称</p>
+								<p>商家地址：<span class="retail_address">我是商家地址</span></p>
+								<p>安装费：<span class="peisong_price">￥500.00</span></p>
+							</td>
+							<td class="text-center">
+								<input type="text" class="textfield text-center span12" />
+								<a href="javascript:;">删除</a>
+							</td>
+							<td class="text-right">
+								<p>运费 <ins class="help">?</ins>：<span class="product_price">￥50.00</span></p>
+								<p class="product_price">￥2050.00</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="form_body">
+					<div class="field span12">
+						<label class="text-left span12">收货地址: <a href="javascript:;">(管理收货地址)</a></label>
 					</div>
-					<div class="tabs">
-						<ul>
+					<div class="field span12">
+						<ul class="peisong_addr">
+							<li class="active">
+								<label>
+									<span class="span1 inline-middle">配送至:</span>
+									<input type="radio" name="peisong" checked /> 北京市海淀区海淀二街中关村soho8层 (萌萌哒 收) 13678054570
+								</label>
+							</li>
 							<li>
-								<a href="user_info.html" data-target="">个人资料</a>
-							</li><li>
-								<a href="order_info.html" data-target="">我的订单</a>
-							</li><li class="active">
-								<a href="javascript:;" data-target="">车辆信息</a>
+								<label>
+									<span class="span1 inline-middle"></span>
+									<input type="radio" name="peisong" /> 北京市海淀区海淀二街中关村soho8层 (萌萌哒 收) 13678054570
+								</label>
 							</li>
 						</ul>
+						<div class="control span12 text-right">
+							<a href="javascript:;" class="btn normal span1 text-center">使用新地址</a>
+						</div>
 					</div>
-					<div class="tab-content">
-						<div class="car_info">
-							<table>
-								<colgroup>
-									<col width="80%" />
-									<col width="20%" />
-								</colgroup>
-								<thead>
-									<tr>
-										<th colspan="2" class="text-left">当前车辆</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>
-											<p>2011 Ford Crown Victoria 4.6L Flex Fuel SOHC 8cyl</p>
-											<a href="javascript:;">编辑</a>
-											/
-											<a href="javascript:;">删除</a>
-										</td>
-										<td class="control text-center">
-											<a href="javascript:;" class="btn">改装配件</a>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											<p>2011 Ford Crown Victoria 4.6L Flex Fuel SOHC 8cyl</p>
-											<a href="javascript:;">编辑</a>
-											/
-											<a href="javascript:;">删除</a>
-										</td>
-										<td class="control text-center">
-											<a href="javascript:;" class="btn">改装配件</a>
-										</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<th></th>
-										<th class="text-center control">
-											<a href="javascript:;" class="btn">添加爱车</a>
-										</th>
-									</tr>
-								</tfoot>
-							</table>
+					<div class="field span12">
+						<label class="text-left span12">商品备注：(@商品商家名称)</label>
+						<div class="control span12 text-left">
+							<textarea class="textfield span12"></textarea>
+						</div>
+					</div>
+					<div class="field span12">
+						<label class="total_price span12 text-right">总价: <b>￥2050.00</b></label>
+					</div>
+					<div class="field span12">
+						<div class="control span12 text-right">
+							<a href="javascript:;" class="btn main_red span1 text-center">提交订单</a>
 						</div>
 					</div>
 				</div>

@@ -465,6 +465,10 @@ body { overflow: auto; }
 .gouwuche > table th {
 	padding: 5px;
 }
+.detail .order_info > table.order_info_td th a {
+	color: #363636;
+	font-size: 12px;
+}
 .detail .order_info > table.order_info_td th,
 .gouwuche > table th {
 	text-align: left;
@@ -492,6 +496,38 @@ body { overflow: auto; }
 .gouwuche .gouwuche_controls .btn {
 	margin: 0;
 }
+.detail .order_info > table.wuliu thead th,
+.detail .order_info > table.wuliu tbody td > div:not(.clear) {
+	padding: 10px;
+}
+.detail .order_info > table.wuliu tbody td > div:not(.clear) {
+	margin-right: -1px;
+}
+.detail .order_info > table.wuliu tbody td > div > p,
+.detail .order_info > table.wuliu tbody td > div > div {
+	padding: 10px;
+}
+.detail .order_info > table.wuliu tbody td > div ul {
+	border: solid 1px #cccccc;
+	padding: 10px;
+}
+.detail .order_info > table.wuliu tbody td > div ul li {
+	padding: 10px;
+}
+.detail .order_info > table.wuliu tbody td > div ul li.active {
+	background: #eeeeee;
+	color: #27AE60;
+}
+.detail .order_info > table.wuliu tbody td > div ul li span {
+	display: inline-block;
+	vertical-align: top;
+}
+.detail .order_info > table.wuliu tbody td > div ul li span p {
+	padding: 0 0 5px 0;
+}
+.detail .order_info > table.wuliu tbody td > div ul li span.date {
+	margin-right: 40px;
+}
 .detail .car_info > table td { vertical-align: top; }
 .gouwuche .gouwuche_controls > * {
 	display: inline-block;
@@ -510,7 +546,9 @@ body { overflow: auto; }
 }
 .gouwuche .gouwuche_controls .total_price,
 .gouwuche table .product_price,
-.gouwuche table .peisong_price {
+.gouwuche table .peisong_price,
+.order_info table.order_info_td .product_price,
+.order_info table.order_info_td .peisong_price {
 	color: #FA7053;
 	font-weight: 600;
 }
