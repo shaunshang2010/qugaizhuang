@@ -107,7 +107,7 @@
 /* ---------- Form ---------- */
 
 /* ---------- Detail ---------- */
-.detail { border-top: solid 4px #fa7053; }
+.detail:not(.order_detail) { border-top: solid 4px #fa7053; }
 .detail .slides { background: #cccccc; }
 .detail .order_info h4 { color: #666666; }
 .detail .order_info > div { border-bottom: dotted 1px #DDDDDD; }
